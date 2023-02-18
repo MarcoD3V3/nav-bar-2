@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial Narrow Bold';
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.mobile-encabezado{
+    display: none;
+}
+
+.btn-more a{
+    font-family: Impact;
+    color: rgb(27, 28, 32);
+}
+body{
+    background: rgb(27, 28, 32);
+}
+.logo{
+    letter-spacing: 2.2px;
+    margin-right: 40px;
+    font-size: 1.54em;
+    margin-left: 12px;
+    margin-bottom: 4px;
+    color: rgb(27, 28, 32);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: .7s;
+}
+
+.links-principales a {
+    letter-spacing: 1px;
+    display: block;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    transition: .5s;
+    font-variant: small-caps;
+    border-radius: 10px ;
+}
+
+.links-principales a:hover{
+    background-color: rgb(28, 28, 29);
+    font-size: 1.008em;
+    border-radius: 10px ;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.logo:hover{
+    border-radius: 10px ;
+    letter-spacing: 90px;
+}
+.logo:hover{
+    border-radius: 10px ;
+    letter-spacing: 70px;
+}
+
+.desktop-encabezado{
+    background-color: rgba(255, 255, 255, 0.199);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    display: block;
+}
+.nav-box-left{
+    transition: 5s;
+}
+.nav-box-right{
+    transition: 5s;
+}
+.nav-box-left ul{
+    display: flex;
+    gap: 18px;
+    transition: 1s;
+}
+.nav-box-right ul{
+    display: flex;
+    gap: 14px;
+    margin-right: 10px;
+    transition: 1s;
+}
+
+
+
+@media screen and (min-width: 761px){
+    .btn-more{
+        display: none;
+    }
+}   
+@media screen and (max-width: 760px){
+    .oculto{
+        display: none;
+
+    }
+    .nav-box-left{
+        margin-right: 20px;
+    }
+    .nav-box-left ul{
+        gap: 14px;
+    }
+}
+
+@media screen and (max-width: 493px){
+    .nav-box-left{
+        display: none;
+    }
+}
+@media  screen and (max-width: 155px) {
+    .logo:hover{
+        border-radius: 10px ;
+        letter-spacing: 6px;
+        
+    }
+    .logo{
+        border-radius: 10px ;
+        letter-spacing: 6px;
+        
+    }
+    .btn-more{
+        display: none;
+    }
+    
+}
